@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './style';
 import {Navbar,
   Services,
-  Card,
+  Contact,
   Productivity,
   Us,
   Promo,
@@ -29,8 +29,8 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
         <Promo/>
         <Services/>
-        <Card/>
         <Productivity/>
+        <Contact/>
         <Us/>
         <CTA/>
         <GetStarted/>

@@ -17,7 +17,6 @@ import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import devil from "./devil.png";
-import wsp from "./wsp.png";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
@@ -27,6 +26,10 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import refresh from "./refresh.png";
 import cloud from "./cloud.png";
+import producitivity from "./productivity.png";
+import whatsapp from "./whatsapp.png";
+import telegram from "./telegrama.png";
+import contact from "./contact.png"
 
 export {
   airbnb,
@@ -48,7 +51,6 @@ export {
   apple,
   arrowUp,
   devil,
-  wsp,
   facebook,
   instagram,
   linkedin,
@@ -57,5 +59,9 @@ export {
   people02,
   people03,
   refresh,
-  cloud
+  cloud,
+  producitivity,
+  whatsapp,
+  telegram,
+  contact
 };

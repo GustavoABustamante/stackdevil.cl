@@ -21,8 +21,8 @@ const Card = ({icon, title, content, index}) => (
 
 const services = () => {
   return (
-    <section id='beneficios' className={layout.section}>
-      <div className={layout.sectionInfo}>
+    <section id='beneficios' className={`${layout.section} lg:text-left text-center`}>
+      <div className={`${layout.sectionInfo}`}>
         <h2 className={styles.heading2}>
           ¿Que ofrecemos? <br className='sm:block hidden'/>
           Acompañarte en cada paso
@@ -30,7 +30,7 @@ const services = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Para cada servicio que ofrecemos contamos con profesionales capaces, que te guiarán y acompañaran en cada paso.
         </p>
-        <Button styles="mt-10 rounded-full"/>
+        <Button styles="mt-10 rounded-[10px] lg:mx-0 mx-auto"/>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (

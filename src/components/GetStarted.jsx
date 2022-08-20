@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { wsp } from '../assets'
+import { whatsapp } from '../assets'
 
 const GetStarted = () => (
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-white p-[2px] cursor-pointer`}>
@@ -11,7 +11,7 @@ const GetStarted = () => (
               Get
             </span> */}
           </p>
-          <img src={wsp} alt="Arrow" className='w-[70px] h-[70px] object-contain' />
+          <img src={whatsapp} alt="Arrow" className='w-[70px] h-[70px] object-contain' />
         </div>
         <p className='font-poppins font-medium text-[18px] leading-[23px]'>
           <span className='text-devil-red'>

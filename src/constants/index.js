@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, refresh, cloud } from "../assets";
+import { devil, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, refresh, cloud, whatsapp, telegram } from "../assets";
 
 export const navLinks = [
   {
@@ -25,7 +25,7 @@ export const features = [
     icon: shield,
     title: "Asesoría informática",
     content:
-      "Déjalo tus problemas en manos de expertos, nosotros te acompañamos.",
+      "Deja tus problemas en manos de expertos, nosotros te acompañamos en cada paso del camino.",
   },
   {
     id: "feature-2",
@@ -43,30 +43,61 @@ export const features = [
   },
 ];
 
+export const contacts = [
+  {
+    id: "contact-1",
+    icon: whatsapp,
+    value:
+      "Whatsapp",
+  },
+  {
+    id: "contact-2",
+    icon: telegram,
+    value:
+      "Telegram",
+  },
+];
+
 export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+    name: "Gustavo Bustamante",
+    title: "Fundador y lider ejecutivo",
+    img: devil,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+    name: "Carolina Marín",
+    title: "Directiva general",
+    img: devil,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+    name: "Alexis Villa",
+    title: "Arquitecto de software",
+    img: devil,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+    name: "Matias Tapia",
+    title: "Directivo de diseño",
+    img: devil,
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
+    name: "Felipe Tapia",
+    title: "Directivo logístico",
+    img: devil,
   },
 ];
 
