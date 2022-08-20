@@ -3,18 +3,6 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
-    extend: {
-      colors: {
-        // primary: "#00040f",
-        primary: "#202023",
-        secondary: "#00f6ff",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
-      },
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-      },
-    },
     screens: {
       xs: "480px",
       ss: "620px",
@@ -23,6 +11,17 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+      colors: {
+        primary: "#202023",
+        secondary: "#DA291C",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
+      },
+    }
   },
   plugins: [],
 };

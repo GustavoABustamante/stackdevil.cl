@@ -9,7 +9,9 @@ import {Navbar,
   CTA,
   GetStarted,
   Testimonials,
-  Hero} from './components'
+  Hero,
+  Footer,
+  Technologies} from './components'
 
 const App = () => (
     <div className='bg-primary w-full overflow-hidden'>
@@ -32,9 +34,8 @@ const App = () => (
         <Productivity/>
         <Contact/>
         <Us/>
-        <CTA/>
-        <GetStarted/>
-        <Testimonials/>
+        <Technologies/>
+        <Footer />
         </div>
       </div>
     </div>

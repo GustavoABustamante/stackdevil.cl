@@ -121,64 +121,79 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    id: "01",
+    title: "Contenido",
     links: [
       {
-        name: "Content",
+        id: "01",
+        name: "Nuestro Contenido",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        id: "02",
+        name: "Como Trabajamos",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        id: "03",
+        name: "Somos Creadores",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        id: "04",
+        name: "Nuestro Trabajo",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        id: "05",
+        name: "Términos & Servicios",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    id: "02",
+    title: "Comunidad",
     links: [
       {
-        name: "Help Center",
+        id: "01",
+        name: "Centro de Ayuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        id: "02",
+        name: "FAQ",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        id: "03",
+        name: "Sugerencias",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
+        id: "04",
         name: "Blog",
         link: "https://www.hoobank.com/blog/",
       },
       {
+        id: "05",
         name: "Newsletters",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    id: "03",
+    title: "Asociados",
     links: [
       {
-        name: "Our Partner",
+        id: "01",
+        name: "Nuestros Socios",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        id: "02",
+        name: "Se Nuestro Socio",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],

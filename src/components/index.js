@@ -9,6 +9,8 @@ import Promo from './Promo'
 import Testimonials from './Testimonials'
 import Us from './Us'
 import UsCard from "./UsCard";
+import Technologies from "./Technologies";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -20,7 +22,9 @@ export {
     Promo,
     CTA,
     GetStarted,
+    Technologies,
     Testimonials,
-    Hero
+    Hero,
+    Footer
 }
 

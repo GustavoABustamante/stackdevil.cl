@@ -19,7 +19,7 @@ const Contact = () => (
         {contacts.map((contact, index) => (
           <div key={contact.id} className={`
           ${index === contacts.length - 1 ? 'mr-0' : 'mr-5'}
-          flex items-center w-[168px] h-[60px] cursor-pointer bg-black rounded-lg text-white drop-shadow-lg hover:scale-110`}>
+          flex items-center w-[168px] h-[60px] cursor-pointer bg-black rounded-lg text-white drop-shadow-lg hover:scale-110 ease-in-out duration-300`}>
             <img src={contact.icon} alt="" className='w-[65px] h-[38px] object-contain cursor-pointer' />
             <div>
               <p className={`font-poppins font-normal text-white text-[12px] leading-[8px] max-w-[470px]`}>Contáctanos </p>
