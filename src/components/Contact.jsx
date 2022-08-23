@@ -12,15 +12,15 @@ const Contact = () => (
           { " " }
           Personalizada?
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px]`}>
+        <p className={`${styles.paragraph} lg:max-w-[470px] max-w-full lg:ml-0 sm:mx-auto`}>
           ¡Siéntete libre de contactarnos! Nosotros atenderemos tus dudas.
         </p>
-        <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+        <div className='flex flex-row flex-wrap lg:justify-start justify-center w-[100%] sm:mt-10 mt-6'>
         {contacts.map((contact, index) => (
-          <div key={contact.id} className={`
-          ${index === contacts.length - 1 ? 'mr-0' : 'mr-5'}
-          flex items-center w-[168px] h-[60px] cursor-pointer bg-black rounded-lg text-white drop-shadow-lg hover:scale-110 ease-in-out duration-300`}>
-            <img src={contact.icon} alt="" className='w-[65px] h-[38px] object-contain cursor-pointer' />
+          <a target="_blank" href={contact.link} key={contact.id} className={`
+          ${index === contacts.length - 1 ? 'mr-0' : 'mr-3'}
+          flex items-center w-[144px] h-[60px] cursor-pointer bg-black rounded-lg text-white drop-shadow-lg hover:scale-110 ease-in-out duration-300`}>
+            <img src={contact.icon} alt="" className='w-[55px] h-[32px] object-contain cursor-pointer' />
             <div>
               <p className={`font-poppins font-normal text-white text-[12px] leading-[8px] max-w-[470px]`}>Contáctanos </p>
               <span className='font-semibold'>{contact.value}</span>
@@ -29,7 +29,7 @@ const Contact = () => (
               {nav.title}
             </a> */}
 
-          </div>
+          </a>
         ))}
       </div>
       </div>

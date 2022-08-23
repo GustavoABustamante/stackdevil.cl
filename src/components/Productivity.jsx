@@ -1,7 +1,6 @@
 import React from 'react'
 import { producitivity } from '../assets'
 import styles, {layout} from '../style'
-import Button from './Button'
 
 const productivity = () => (
   <section id='product' className={`${layout.sectionReverse} lg:text-left text-center`}>
@@ -15,10 +14,9 @@ const productivity = () => (
         Mejora tu <br className='sm:block hidden'/>
         productividad
       </h2>
-      <p className={`${styles.paragraph} lg:max-w-[470px] mt-5`}>
-        Lleva tus procesos al mundo digital con nosotros y aumenta la productividad de tu empresa.
+      <p className={`${styles.paragraph} lg:max-w-[470px] mt-5 md:ml-0 sm:mx-auto `}>
+        Con nosotros podrás llevar tus procesos al mundo digital y aumentar la productividad de tu empresa.
       </p>
-      <Button styles='mt-8 lg:mx-0 mx-auto' />
     </div>
   </section>
 )

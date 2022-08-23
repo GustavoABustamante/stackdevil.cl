@@ -1,4 +1,4 @@
-import { devil, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, refresh, cloud, whatsapp, telegram } from "../assets";
+import { devil, facebook, instagram, linkedin, twitter, refresh, cloud, whatsapp, email, windows, azure, net, shield } from "../assets";
 
 export const navLinks = [
   {
@@ -19,23 +19,23 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const ourServices = [
   {
-    id: "feature-1",
+    id: "services-1",
     icon: shield,
     title: "Asesoría informática",
     content:
-      "Deja tus problemas en manos de expertos, nosotros te acompañamos en cada paso del camino.",
+      "Deja tus problemas en nuestras manos, nosotros te acompañamos en cada paso del camino.",
   },
   {
-    id: "feature-2",
+    id: "services-2",
     icon: refresh,
     title: "Desarrollo de software",
     content:
       "¿Quieres llevar tu empresa al siguiente nivel? Automatiza tus procesos con nosotros.",
   },
   {
-    id: "feature-3",
+    id: "services-3",
     icon: cloud,
     title: "Soluciones Cloud",
     content:
@@ -49,73 +49,51 @@ export const contacts = [
     icon: whatsapp,
     value:
       "Whatsapp",
+    link: "https://api.whatsapp.com/send/?phone=56920788595&text=¡Hola!%20Helph!&type=phone_number&app_absent=0"
   },
   {
     id: "contact-2",
-    icon: telegram,
+    icon: email,
     value:
-      "Telegram",
+      "E-mail",
+    link: "mailto:contacto@stackdevil.cl?subject=Consultas StackDevil&body=¡Hola! Quisiera tener mas información sobre los servicios de StackDevil."
   },
 ];
 
-export const feedback = [
+export const founders = [
   {
     id: "feedback-1",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
-    name: "Gustavo Bustamante",
-    title: "Fundador y lider ejecutivo",
-    img: devil,
+      "Nuestra misión es entregar soluciones robustas a los problemas de nuestros clientes.",
+    name: "Carolina Marín",
+    title: "Fundadora y Directiva general",
   },
   {
     id: "feedback-2",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
-    name: "Carolina Marín",
-    title: "Directiva general",
-    img: devil,
+      "Entregamos toda nuestra dedicación a que tus metas sean las nuestras.",
+    name: "Gustavo Bustamante",
+    title: "Fundador y Líder Ejecutivo",
   },
   {
     id: "feedback-3",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
-    name: "Alexis Villa",
-    title: "Arquitecto de software",
-    img: devil,
-  },
-  {
-    id: "feedback-4",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
-    name: "Matias Tapia",
-    title: "Directivo de diseño",
-    img: devil,
-  },
-  {
-    id: "feedback-5",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.",
-    name: "Felipe Tapia",
-    title: "Directivo logístico",
-    img: devil,
+      "Pondremos toda la creatividad en crear un diseño único e intuitivo a tu producto.",
+    name: "Matías Tapia",
+    title: "Directivo de Diseño",
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Archivos en 1 click",
+    value: "Más de 1000+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Transforma horas en segundos",
+    value: "Hrs. en seg.",
   },
 ];
 
@@ -226,18 +204,14 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: windows,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: azure,
   },
   {
     id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+    logo: net,
   },
 ];

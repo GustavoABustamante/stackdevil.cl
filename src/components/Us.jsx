@@ -1,5 +1,5 @@
 import React from 'react'
-import { feedback } from '../constants'
+import { founders } from '../constants'
 import styles from '../style'
 import UsCard from './UsCard'
 
@@ -9,16 +9,15 @@ const Us = () => (
       <div className='w-full flex justify-beetwen items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
         <h1 className={styles.heading2}>¿Quienes sómos? 
           <br className='sm:block hidden'/>
-          ¡Nos presentamos!
         </h1>
         <div className='w-full md:mt-0 mt-6'>
-          <p className={`${styles.paragraph} text-left max-w-[450px] lg:text-left text-center`}>
-            Somos un equipo de apasionados desarrolladores con el fin común de entregar soluciones potentes, escalables y personalizadas a nuestros clientes.
+          <p className={`${styles.paragraph} lg:text-left max-w-[450px] md:ml-0 ss:mx-auto ss:text-center`}>
+            Somos un equipo de desarrolladores apasionados, con el fin común de entregar soluciones potentes, escalables y personalizadas a nuestros clientes.
           </p>
         </div>
       </div>
-      <div className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]'>
-        {feedback.map((card) => (
+      <div className='flex flex-wrap justify-center w-full feedback-container relative z-[1]'>
+        {founders.map((card) => (
           <UsCard key={card.id} {...card}/>
         ))}
       </div>
