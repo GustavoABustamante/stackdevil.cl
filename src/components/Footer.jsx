@@ -6,13 +6,13 @@ import { footerLinks, socialMedia } from '../constants'
 const Footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
         <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-          <div className='flex-1 flex items-center justify-start mx-auto'>
+          <div className='flex-[1.5] flex flex-col sm:flex-row items-center justify-start mx-auto'>
             <img src={logo} alt="stackdevil" className='w-[266px] h-[124px] object-contain' />
-            <p className={`${styles.paragraph} ss:flex hidden mt-4 max-w-[310px] lg:text-left md:text-left ss:text-center`}>
+            <p className={`${styles.paragraph}  mt-4 ss:mt-0 max-w-[310px] md:text-left text-center`}>
               Encuentra la solución perfecta para tus necesidades.
             </p>
           </div>
-          <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
+          <div className='flex-[1.5] w-full flex flex-row justify-around flex-wrap md:mt-0 mt-10'>
             {footerLinks.map((footerLink) => (
               <div key={footerLink.id} className='flex flex-col ss:my-0 my-4 min-w-[150px]'>
                 <h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>

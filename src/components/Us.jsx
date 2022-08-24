@@ -4,7 +4,7 @@ import styles from '../style'
 import UsCard from './UsCard'
 
 const Us = () => (
-    <section id='Us' className={`${styles.paddingY} ${styles.flexCenter} flex-col relative lg:text-left text-center`}>
+    <section id='us' className={`${styles.paddingY} ${styles.flexCenter} flex-col relative lg:text-left text-center`}>
       <div className='absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full white__gradient'></div>
       <div className='w-full flex justify-beetwen items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
         <h1 className={styles.heading2}>¿Quienes sómos? 

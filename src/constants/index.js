@@ -1,4 +1,4 @@
-import { devil, facebook, instagram, linkedin, twitter, refresh, cloud, whatsapp, email, windows, azure, net, shield } from "../assets";
+import { devil, facebook, instagram, linkedin, twitter, refresh, cloud, whatsapp, email,  shield } from "../assets";
 
 export const navLinks = [
   {
@@ -6,15 +6,15 @@ export const navLinks = [
     title: "Inicio",
   },
   {
-    id: "features",
+    id: "services",
     title: "Servicios",
   },
   {
-    id: "product",
+    id: "benefits",
     title: "Beneficios",
   },
   {
-    id: "clients",
+    id: "us",
     title: "Nosotros",
   },
 ];
@@ -49,14 +49,14 @@ export const contacts = [
     icon: whatsapp,
     value:
       "Whatsapp",
-    link: "https://api.whatsapp.com/send/?phone=56920788595&text=¡Hola!%20Helph!&type=phone_number&app_absent=0"
+    link: "https://api.whatsapp.com/send/?phone=56920788595&text=¡Hola!%20%20Necesito%20resolver%20unas%20dudas.&type=phone_number&app_absent=0"
   },
   {
     id: "contact-2",
     icon: email,
     value:
       "E-mail",
-    link: "mailto:contacto@stackdevil.cl?subject=Consultas StackDevil&body=¡Hola! Quisiera tener mas información sobre los servicios de StackDevil."
+    link: "mailto:contacto@stackdevil.cl?subject=Consultas StackDevil&body=¡Hola! Necesito más información sobre los servicios de StackDevil."
   },
 ];
 
@@ -78,7 +78,7 @@ export const founders = [
   {
     id: "feedback-3",
     content:
-      "Pondremos toda la creatividad en crear un diseño único e intuitivo a tu producto.",
+      "Pondremos toda la creatividad en crear un diseño único e intuitivo para tu producto.",
     name: "Matías Tapia",
     title: "Directivo de Diseño",
   },
@@ -159,23 +159,23 @@ export const footerLinks = [
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
-  },
-  {
-    id: "03",
-    title: "Asociados",
-    links: [
-      {
-        id: "01",
-        name: "Nuestros Socios",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        id: "02",
-        name: "Se Nuestro Socio",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  }
+  // {
+  //   id: "03",
+  //   title: "Asociados",
+  //   links: [
+  //     {
+  //       id: "01",
+  //       name: "Nuestros Socios",
+  //       link: "https://www.hoobank.com/our-partner/",
+  //     },
+  //     {
+  //       id: "02",
+  //       name: "Se Nuestro Socio",
+  //       link: "https://www.hoobank.com/become-a-partner/",
+  //     },
+  //   ],
+  // },
 ];
 
 export const socialMedia = [
@@ -201,17 +201,3 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: windows,
-  },
-  {
-    id: "client-2",
-    logo: azure,
-  },
-  {
-    id: "client-3",
-    logo: net,
-  },
-];

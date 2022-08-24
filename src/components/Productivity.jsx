@@ -3,7 +3,7 @@ import { producitivity } from '../assets'
 import styles, {layout} from '../style'
 
 const productivity = () => (
-  <section id='product' className={`${layout.sectionReverse} lg:text-left text-center`}>
+  <section id='benefits' className={`${layout.sectionReverse} lg:text-left text-center`}>
     <div className={layout.sectionImgReverse}>
       <img src={producitivity} alt='' className='w-[80%] h-[80%] relative z-[5]' />
       <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient'></div>

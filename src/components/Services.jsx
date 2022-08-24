@@ -20,13 +20,13 @@ const Card = ({icon, title, content, index}) => (
 
 const services = () => {
   return (
-    <section id='beneficios' className={`${layout.section} lg:text-left text-center`}>
+    <section id='services' className={`${layout.section} lg:text-left text-center`}>
       <div className={`${layout.sectionInfo}`}>
         <h2 className={styles.heading2}>
           ¿Que ofrecemos? <br className='sm:block hidden'/>
           Acompañarte en cada paso
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5 md:ml-0 sm:mx-auto`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 md:ml-0 ss:mx-auto`}>
           Para cada servicio que ofrecemos contamos con profesionales que te guiarán y acompañaran en cada paso.
         </p>
       </div>
