@@ -78,7 +78,7 @@ export const founders = [
   {
     id: "feedback-3",
     content:
-      "Pondremos toda la creatividad en crear un diseño único e intuitivo a tu producto.",
+      "Pondremos toda la creatividad en crear un diseño único e intuitivo para tu producto.",
     name: "Matías Tapia",
     title: "Directivo de Diseño",
   },
