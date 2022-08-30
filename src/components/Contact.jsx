@@ -12,7 +12,7 @@ const Contact = () => (
         {" "}
         Personalizada?
       </h2>
-      <p className={`${styles.paragraph} lg:max-w-[470px] max-w-full lg:ml-0 ss:mx-auto`}>
+      <p className={`${styles.paragraph} lg:max-w-[470px] max-w-full lg:ml-0 us:mx-auto`}>
       ¿Tienes problemas informáticos? 
       <br/>
       ¡Haz clic aquí y contáctanos!
